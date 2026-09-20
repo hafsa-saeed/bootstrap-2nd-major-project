@@ -17,3 +17,56 @@ h1{
   min-width: 50%;
   max-height: 200px;
 }
+
+
+/* Navbar responsive improvements */
+@media (max-width: 991.98px){
+  .navbar{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .navbar-brand{
+    font-size: 1.6rem !important;
+  }
+
+  .navbar-collapse{
+    background-color: #fff;
+    padding: 0.75rem 0;
+    margin-top: 0.5rem;
+    border-top: 1px solid #eee;
+  }
+
+  .navbar-nav{
+    font-size: 1rem !important;
+    gap: 0.15rem;
+  }
+
+  .navbar-nav .nav-link{
+    padding: 0.65rem 0.5rem !important;
+  }
+
+  .navbar-nav .dropdown-menu{
+    text-align: center;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 575.98px){
+  .navbar-brand{
+    font-size: 1.4rem !important;
+  }
+
+  .navbar-toggler{
+    padding: 0.3rem 0.5rem;
+  }
+
+  .navbar-collapse{
+    padding-bottom: 0.5rem;
+  }
+
+  .navbar-nav .nav-link{
+    font-size: 0.95rem;
+  }
+}
